@@ -21,6 +21,8 @@ a {
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    min-width: 100vw;
     padding: 0px 100px;
 }
 
@@ -60,7 +62,8 @@ a {
     justify-content: center;
     align-items: center;
     background-color:#1f2937;
-    width: 100vw;
+    box-sizing: border-box;
+    min-width: 100vw;
     padding: 50px 100px;
     gap: 50px;
 }
@@ -158,6 +161,36 @@ a {
 
 .content-c {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    box-sizing: border-box;
+    background-color: #E5E7EB;
+    min-width: 100vw;
+    height: 400px;
+    padding: 50px 100px;
+}
+
+.c-box {
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.c-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 800px;
+}
+
+.c-attr {
+    text-align: right;
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .content-d {
@@ -170,5 +203,6 @@ a {
     align-items: center;
     background-color: #1f2937;
     color: #E5E7EB;
+    box-sizing: border-box;
     padding: 34px;
 }
