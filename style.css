@@ -24,6 +24,13 @@ a {
     padding: 0px 100px;
 }
 
+.h-bound {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 1250px;
+}
+
 .h-left {
     font-size: 24px;
     font-weight: 900;
@@ -44,6 +51,7 @@ a {
 .main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex: 1 0 0%;
 }
 
@@ -52,8 +60,9 @@ a {
     justify-content: center;
     align-items: center;
     background-color:#1f2937;
+    width: 100vw;
     padding: 50px 100px;
-    gap: 20px;
+    gap: 50px;
 }
 
 .content-a h1 {
@@ -99,6 +108,52 @@ a {
 
 .content-b {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 100px;
+    max-width: 1250px;
+}
+
+.content-b h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.b-head {
+    flex: 1;
+}
+
+.b-body {
+    display: flex;
+    max-width: 1250px;
+    gap: 50px;
+}
+
+.b-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 175px;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 8px;
+}
+
+.b-img {
+    width: 175px;
+    height: 175px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.b-text {
+    font-size: 18px;
+    color: #1F2937;
 }
 
 .content-c {
